@@ -1,0 +1,24 @@
+2023-09-05 19:19:41,545 =============================================================
+2023-09-05 19:19:41,545 =============================================================
+2023-09-05 19:19:41,545 Today is 2023-09-05 at 07:19 PM
+2023-09-05 19:19:41,588 This file is running on: nt Windows 10
+2023-09-05 19:19:41,588 The Python version is: 3.11.4
+2023-09-05 19:19:41,589 The active conda environment is:  None
+2023-09-05 19:19:41,589 The active pip environment is:    None
+2023-09-05 19:19:41,589 The active environment path is:   C:\Users\Valer\AppData\Local\Programs\Python\Python311
+2023-09-05 19:19:41,591 The current working directory is: C:\Users\Valer\Desktop\Lesson01\datafun-03-datatypes
+2023-09-05 19:19:41,592 This source file is in:           c:\Users\Valer\Desktop\Lesson01\datafun-03-datatypes
+2023-09-05 19:19:41,592 =============================================================
+2023-09-05 19:19:41,592 =============================================================
+2023-09-05 19:19:41,592 Calling functions from main block
+2023-09-05 19:19:41,592 Calling process_text_woodchuck()
+2023-09-05 19:19:41,592 The list of words is: ['How', 'much', 'wood', 'would', 'a', 'woodchuck', 'chuck', 'if', 'a', 'woodchuck', 'could', 'chuck', 'wood?', 'He', 'would', 'chuck,', 'he', 'would,', 'as', 'much', 'as', 'he', 'could,', 'and', 'chuck', 'as', 'much', 'wood', 'as', 'a', 'woodchuck', 'would', 'if', 'a', 'woodchuck', 'could', 'chuck', 'wood.']
+2023-09-05 19:19:41,592 There are 38 words in the file.
+2023-09-05 19:19:41,592 The set of unique words is: {'wood', 'much', 'wood.', 'a', 'as', 'woodchuck', 'chuck', 'he', 'could,', 'wood?', 'and', 'could', 'How', 'would,', 'chuck,', 'if', 'He', 'would'}
+2023-09-05 19:19:41,592 There are 18 unique words in the file.
+2023-09-05 19:19:41,592 Calling create_random_sentence()
+2023-09-05 19:19:41,592 Random sentence: The sad bird jumps quickly.
+2023-09-05 19:19:41,592 Calling create_random_sentence()
+2023-09-05 19:19:41,592 Random sentence: The confused cat flies angrily.
+2023-09-05 19:19:41,592 Calling play_game()
+2023-09-05 19:19:41,592 ready_for_continous_game = True
