@@ -109,7 +109,7 @@ def play_game():
     """Play a game of rock, paper, scissors"""
     logger.info("Calling play_game()")
 
-    ready_for_continous_game = True  # TODO: change this when ready
+    ready_for_continous_game = False  # TODO: change this when ready
     logger.info(f"ready_for_continous_game = {ready_for_continous_game}")
 
     if not ready_for_continous_game:
@@ -141,6 +141,7 @@ def play_game():
         print("This program will run forever unless you type q to quit.")
         print("or use Ctrl-C to stop the program.")
         print()
+
 
 
 def show_log():
