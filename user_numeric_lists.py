@@ -206,32 +206,19 @@ def apply_filter_and_map():
 # list 6- list transformations using list comprehension
 
 def apply_list_comprehension():
-    
+    filteredlistcomprehension = [x for x in list1 if x < 4]
+    logger.info(f"filtered list comprehension (x < 4), {filteredlistcomprehension}")
+
+    triplelistcomprehension = [x * 3 for x in list1]
+    logger.info(f"triple list comprehension (x * 3), {triplelistcomprehension}")
+
+    customlistcomprehension = [x * 2 for x in list1]
+    logger.info(f"custom list comprehension (x * 2), {customlistcomprehension}")
 
 
-
-
-
-                
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-
+def show_log():
+    with open(logname, "r") as file_wrapper:
+        print(file_wrapper.read())
 
 
 
@@ -243,9 +230,25 @@ def apply_list_comprehension():
 # (as opposed to being imported by another module)
 # Literally: "if this module name == the name of the main module"
 if __name__ == "__main__":
+    logger.info(f"CALLING measures of central tendency")
+    measures_of_central_tendency()
 
-    # call your functions here (see instructions)
-    print("Replace this with calls to your functions." )
+    logger.info(f"CALLING correlation and prediction")
+    correlation_and_prediction()
 
+    logger.info(f"CALLING list basic functions")
+    list_basic_functions()
+
+    logger.info(f"CALLING list methods")
+    list_methods()
+
+    logger.info(f"CALLING apply filter and map")
+    apply_filter_and_map()
+
+    logger.info(f"CALLING apply list comprehension")
+    apply_list_comprehension()
+
+    show_log()
+    
 
 
