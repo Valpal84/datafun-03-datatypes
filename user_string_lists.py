@@ -71,9 +71,9 @@ def random_choice():
 
 # String lists 3- Get unique words
 
-def process_text_juliasceasar():
-    logger.info(f"CALLING process_text_juliasceasar")
-    with open("text_juliasceasar.txt", "r") as fileobject:
+def process_text_juliuscaesar():
+    logger.info(f"CALLING process_text_juliuscaesar")
+    with open("text_juliuscaesar.txt", "r") as fileobject:
         text = fileobject.read()
         listwords = text.split()
         uniquewords = set(listwords)
@@ -99,6 +99,5 @@ def show_log():
 if __name__ == "__main__":
     built_in_functions()
     random_choice()
-    process_text_juliasceasar()
+    process_text_juliuscaesar()
     show_log()
-    
