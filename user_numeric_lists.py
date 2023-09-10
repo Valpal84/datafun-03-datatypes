@@ -23,7 +23,31 @@ listy = [4,3,3,2,4,7,8,9,5,3]
 
 
 # TODO: define some custom functions
+def measures_of_central_tendency():
+    logger.info(f"donations: {list1}")
+    logger.info(f"range to 10: {listx}")
 
+    mean = statistics.mean(list1)
+    median = statistics.median(list1)
+    mode = statistics.mode(list1)
+
+    var = statistics.variance(list1)
+    stdev = statistics.stdev(list1)
+
+    logger.info(f"donations mean: {list1}")
+    logger.info(f"donations median: {list1}")
+    logger.info(f"donations mode: {list1}")
+
+    logger.info(f"donations var: {list1}")
+    logger.info(f"donations stdev: {list1}")
+
+def correlation_and_prediction():
+    logger.info(f"listx: {listx}")
+    logger.info(f"listy: {listy}")
+
+    correlationxy = statistics.correlation(listx, listy)
+    
+    
 
 
 
