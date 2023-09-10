@@ -154,6 +154,53 @@ def list_basic_functions():
     logger.info(f"list x reversed is : {sorted_reversex}")
     logger.info(f"list y reversed is: {sorted_reversey}")
 
+# list 4- list methods
+
+def list_methods():
+    lst = [6,3,2,7,4]
+
+    logger.info(f"lst short list = {lst}")
+
+    lst.append(5)
+    logger.info(f"after append(5), lst short list ={lst}")
+
+    lst.extend([8,1,9])
+    logger.info(f"after extend([8,1,9]), lst short list={lst}")
+
+    lst.insert(2,11)
+    logger.info(f"after insert(2,11), lst short list ={lst}")
+
+    lst.remove(5)
+    logger.info(f"after removing(5), lst short list = {lst}")
+
+    count2 = lst.count(2)
+    logger.info(f"count of 2 in lst = {count2}")
+
+    lst.sort()
+    logger.info(f"after list sort(), lst short list = {lst}")
+
+    lst.sort(reverse=True)
+    logger.info(f"after reverse list sort(reverse=True), lst short list = {lst}")
+
+    lstcopy = lst.copy()
+    logger.info(f"copy of lst short list = {lstcopy}")
+
+    popfirstitem = lst.pop(0)
+    logger.info(f"after popping first item from lst {popfirstitem}, lst short list = {lst}")
+
+    poplast = lst.pop(-1)
+    logger.info(f"after popping last item from lst {poplast}, lst short list = {lst}")
+
+# list 5- transformations
+
+
+
+
+                
+
+
+
+
 
 
 
