@@ -191,7 +191,23 @@ def list_methods():
     poplast = lst.pop(-1)
     logger.info(f"after popping last item from lst {poplast}, lst short list = {lst}")
 
-# list 5- transformations
+# list 5- transformations using filter and map
+
+def apply_filter_and_map():
+    filterlist1 = list(filter(lambda x: x < 4, list1))
+    logger.info(f"filtered list (x < 4): {filterlist1}")
+
+    cubedrootlist = list(map(lambda x: math.pow(x,1/3), list1))
+    logger.info(f"cubed root list: {cubedrootlist}")
+
+    cubedvolumelist = list(map(lambda x: x * x * x, list1))
+    logger.info(f"cubed volume list: {cubedvolumelist}")
+
+# list 6- list transformations using list comprehension
+
+def apply_list_comprehension():
+    
+
 
 
 
